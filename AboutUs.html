@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Global Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header Styling */
+        .header {
+            width: 100%;
+            background-color: #d75246;
+            padding: 20px;
+            text-align: center;
+            color: aliceblue;
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+
+        /* Team Section Styling */
+        .team {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 40px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .member {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .member img {
+            width: 100%;
+            max-width: 200px;
+            max-height:290px;
+            border-radius: 50px;
+            margin-bottom: 15px;
+        }
+
+        .member h3 {
+            font-size: 22px;
+            color: #333;
+            margin: 10px 0 5px;
+        }
+
+        .member p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header {
+                font-size: 28px;
+            }
+
+            .member h3 {
+                font-size: 18px;
+            }
+
+            .member p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        About Us
+    </div>
+
+    <div class="team">
+        <div class="member">
+            <img src="person1.jpeg" alt="Team Member 1">
+            <h3>Member 1</h3>
+            <p>Youssef saied</p>
+        </div>
+        <div class="member">
+            <img src="person2.jpeg" alt="Team Member 2">
+            <h3>Member 2</h3>
+            <p>Madona Atef</p>
+        </div>
+        <div class="member">
+            <img src="person3.jpg" alt="Team Member 3">
+            <h3>Member 3</h3>
+            <p>Ammar Sami</p>
+        </div>
+        <div class="member">
+            <img src="person4.jpg" alt="Team Member 4">
+            <h3>Member 4</h3>
+            <p>Menna Mohamed</p>
+        </div>
+        <div class="member">
+            <img src="person5.png" alt="Team Member 5">
+            <h3>Member 5</h3>
+            <p>Omar Walied</p>
+        </div>
+        <div class="member">
+            <img src="person6.jpg" alt="Team Member 6">
+            <h3>Member 6</h3>
+            <p>Karim Fady</p>
+        </div>
+    </div>
+</body>
+</html>
